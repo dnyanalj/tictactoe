@@ -12,3 +12,33 @@
     display: flex;
     gap: 300px;
 }
+
+
+@media (max-width: 480px) {
+    
+
+    .flex {
+        flex-direction: column; /* stack items vertically */
+        gap: 20px;
+        align-items: center;
+    }
+
+    .box {
+        width: 100%; /* take full width on mobile */
+    }
+}
+
+
+@media (max-width: 760px) {
+    
+
+    .flex {
+        flex-direction: column; /* stack items vertically */
+        gap: 20px;
+        align-items: center;
+    }
+
+    .box {
+        width: 100%; /* take full width on mobile */
+    }
+}
