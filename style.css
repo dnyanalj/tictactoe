@@ -1,0 +1,14 @@
+.box{
+    background-color: aqua;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap:3px
+}
+
+.flex{
+    display: flex;
+    gap: 300px;
+}
